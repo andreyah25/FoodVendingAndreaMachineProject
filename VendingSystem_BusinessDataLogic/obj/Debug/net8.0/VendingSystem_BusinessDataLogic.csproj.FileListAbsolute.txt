@@ -1,0 +1,14 @@
+C:\AndreaConcepcion\VendingSystem_BusinessDataLogic\bin\Debug\net8.0\VendingSystem_BusinessDataLogic.exe
+C:\AndreaConcepcion\VendingSystem_BusinessDataLogic\bin\Debug\net8.0\VendingSystem_BusinessDataLogic.deps.json
+C:\AndreaConcepcion\VendingSystem_BusinessDataLogic\bin\Debug\net8.0\VendingSystem_BusinessDataLogic.runtimeconfig.json
+C:\AndreaConcepcion\VendingSystem_BusinessDataLogic\bin\Debug\net8.0\VendingSystem_BusinessDataLogic.dll
+C:\AndreaConcepcion\VendingSystem_BusinessDataLogic\bin\Debug\net8.0\VendingSystem_BusinessDataLogic.pdb
+C:\AndreaConcepcion\VendingSystem_BusinessDataLogic\obj\Debug\net8.0\VendingSystem_BusinessDataLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\AndreaConcepcion\VendingSystem_BusinessDataLogic\obj\Debug\net8.0\VendingSystem_BusinessDataLogic.AssemblyInfoInputs.cache
+C:\AndreaConcepcion\VendingSystem_BusinessDataLogic\obj\Debug\net8.0\VendingSystem_BusinessDataLogic.AssemblyInfo.cs
+C:\AndreaConcepcion\VendingSystem_BusinessDataLogic\obj\Debug\net8.0\VendingSystem_BusinessDataLogic.csproj.CoreCompileInputs.cache
+C:\AndreaConcepcion\VendingSystem_BusinessDataLogic\obj\Debug\net8.0\VendingSystem_BusinessDataLogic.dll
+C:\AndreaConcepcion\VendingSystem_BusinessDataLogic\obj\Debug\net8.0\refint\VendingSystem_BusinessDataLogic.dll
+C:\AndreaConcepcion\VendingSystem_BusinessDataLogic\obj\Debug\net8.0\VendingSystem_BusinessDataLogic.pdb
+C:\AndreaConcepcion\VendingSystem_BusinessDataLogic\obj\Debug\net8.0\VendingSystem_BusinessDataLogic.genruntimeconfig.cache
+C:\AndreaConcepcion\VendingSystem_BusinessDataLogic\obj\Debug\net8.0\ref\VendingSystem_BusinessDataLogic.dll
