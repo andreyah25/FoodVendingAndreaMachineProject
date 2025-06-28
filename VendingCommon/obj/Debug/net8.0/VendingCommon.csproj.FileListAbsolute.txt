@@ -1,0 +1,5 @@
+C:\IPTAndrea\VendingCommon\obj\Debug\net8.0\VendingCommon.GeneratedMSBuildEditorConfig.editorconfig
+C:\IPTAndrea\VendingCommon\obj\Debug\net8.0\VendingCommon.AssemblyInfoInputs.cache
+C:\IPTAndrea\VendingCommon\obj\Debug\net8.0\VendingCommon.AssemblyInfo.cs
+C:\IPTAndrea\VendingCommon\obj\Debug\net8.0\VendingCommon.csproj.CoreCompileInputs.cache
+C:\IPTAndrea\VendingCommon\obj\Debug\net8.0\VendingCommon.sourcelink.json

@@ -12,3 +12,11 @@ C:\AndreaConcepcion\VendingSystem_BusinessDataLogic\obj\Debug\net8.0\refint\Vend
 C:\AndreaConcepcion\VendingSystem_BusinessDataLogic\obj\Debug\net8.0\VendingSystem_BusinessDataLogic.pdb
 C:\AndreaConcepcion\VendingSystem_BusinessDataLogic\obj\Debug\net8.0\VendingSystem_BusinessDataLogic.genruntimeconfig.cache
 C:\AndreaConcepcion\VendingSystem_BusinessDataLogic\obj\Debug\net8.0\ref\VendingSystem_BusinessDataLogic.dll
+C:\IPTAndrea\VendingSystem_BusinessDataLogic\obj\Debug\net8.0\VendingSystem_BusinessDataLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\IPTAndrea\VendingSystem_BusinessDataLogic\obj\Debug\net8.0\VendingSystem_BusinessDataLogic.AssemblyInfoInputs.cache
+C:\IPTAndrea\VendingSystem_BusinessDataLogic\obj\Debug\net8.0\VendingSystem_BusinessDataLogic.AssemblyInfo.cs
+C:\IPTAndrea\VendingSystem_BusinessDataLogic\obj\Debug\net8.0\VendingSystem_BusinessDataLogic.csproj.CoreCompileInputs.cache
+C:\IPTAndrea\VendingSystem_BusinessDataLogic\obj\Debug\net8.0\VendingSystem_BusinessDataLogic.sourcelink.json
+C:\IPTAndrea\VendingSystem_BusinessDataLogic\obj\Debug\net8.0\VendingSystem_BusinessDataLogic.dll
+C:\IPTAndrea\VendingSystem_BusinessDataLogic\obj\Debug\net8.0\refint\VendingSystem_BusinessDataLogic.dll
+C:\IPTAndrea\VendingSystem_BusinessDataLogic\obj\Debug\net8.0\VendingSystem_BusinessDataLogic.pdb

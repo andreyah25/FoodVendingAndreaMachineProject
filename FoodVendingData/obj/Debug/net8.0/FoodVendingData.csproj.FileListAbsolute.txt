@@ -1,0 +1,5 @@
+C:\IPTAndrea\FoodVendingData\obj\Debug\net8.0\FoodVendingData.GeneratedMSBuildEditorConfig.editorconfig
+C:\IPTAndrea\FoodVendingData\obj\Debug\net8.0\FoodVendingData.AssemblyInfoInputs.cache
+C:\IPTAndrea\FoodVendingData\obj\Debug\net8.0\FoodVendingData.AssemblyInfo.cs
+C:\IPTAndrea\FoodVendingData\obj\Debug\net8.0\FoodVendingData.csproj.CoreCompileInputs.cache
+C:\IPTAndrea\FoodVendingData\obj\Debug\net8.0\FoodVendingData.sourcelink.json

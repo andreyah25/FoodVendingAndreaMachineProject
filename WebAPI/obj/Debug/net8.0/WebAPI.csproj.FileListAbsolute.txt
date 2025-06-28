@@ -1,0 +1,8 @@
+C:\IPTAndrea\WebAPI\obj\Debug\net8.0\WebAPI.csproj.AssemblyReference.cache
+C:\IPTAndrea\WebAPI\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\IPTAndrea\WebAPI\obj\Debug\net8.0\WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\IPTAndrea\WebAPI\obj\Debug\net8.0\WebAPI.AssemblyInfoInputs.cache
+C:\IPTAndrea\WebAPI\obj\Debug\net8.0\WebAPI.AssemblyInfo.cs
+C:\IPTAndrea\WebAPI\obj\Debug\net8.0\WebAPI.csproj.CoreCompileInputs.cache
+C:\IPTAndrea\WebAPI\obj\Debug\net8.0\WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\IPTAndrea\WebAPI\obj\Debug\net8.0\WebAPI.sourcelink.json

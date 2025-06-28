@@ -6,15 +6,15 @@ namespace FoodVendingData
 {
     public class FoodVendingDataItem 
     {
-        TextFileDataService dataService;
+        DBFoodVendingDataService dataService;
 
         public FoodVendingDataItem()
         {
 
             // dataService = new InMemoryFoodDataService();
-             dataService = new TextFileDataService("inventory.txt");
+            // dataService = new TextFileDataService("inventory.txt");
             // dataService = new JsonProductDataService("inventory.json");
-           // dataService = new DBFoodVendingDataService();
+            dataService = new DBFoodVendingDataService();
         }
 
         public List<SnackItem> GetAllItems()
