@@ -19,9 +19,9 @@ namespace FoodVendingData
                 File.WriteAllText(this.filePath, string.Empty);
         }
 
-        public List<SnackItem> LoadItems()
+        public List<VendingItem> LoadItems()
         {
-            var items = new List<SnackItem>();
+            var items = new List<VendingItem>();
 
             var lines = File.ReadAllLines(filePath);
             foreach (var line in lines)
@@ -39,7 +39,7 @@ namespace FoodVendingData
                 if (!int.TryParse(parts[2], out int qty))
                     continue;
 
-                items.Add(new SnackItem
+                items.Add(new VendingItem
                 {
                     Name = name,
                     Price = price,
@@ -50,13 +50,13 @@ namespace FoodVendingData
             return items;
         }
 
-        public SnackItem GetItemByName(string name)
+        public VendingItem GetItemByName(string name)
         {
             var allItems = LoadItems();
             return allItems.FirstOrDefault(i => i.Name.Equals(name, StringComparison.OrdinalIgnoreCase));
         }
 
-        public bool AddItem(SnackItem item)
+        public bool AddItem(VendingItem item)
         {
             if (string.IsNullOrWhiteSpace(item.Name) || item.Price <= 0 || item.Quantity <= 0)
                 return false;
@@ -97,12 +97,12 @@ namespace FoodVendingData
         }
 
 
-        public List<SnackItem> GetAllItems() => LoadItems();
+        public List<VendingItem> GetAllItems() => LoadItems();
 
-        public bool AddNewItem(SnackItem item) => AddItem(item);
+        public bool AddNewItem(VendingItem item) => AddItem(item);
 
 
-        private bool SaveItems(List<SnackItem> items)
+        private bool SaveItems(List<VendingItem> items)
         {
             try
             {

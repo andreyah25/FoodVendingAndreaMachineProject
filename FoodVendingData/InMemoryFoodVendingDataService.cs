@@ -1,78 +1,81 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using VendingCommon;
+using System.Collections.Generic;
 using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using VendingCommon;
 
 namespace FoodVendingData
 {
-    public class InMemoryFoodDataService : IFoodVendingDataService
+    public class InMemoryFoodVendingDataService
     {
-        private readonly List<SnackItem> inventory = new List<SnackItem>
+        private List<VendingItem> item = new List<VendingItem>();
+        public InMemoryFoodVendingDataService()
         {
-            new SnackItem { Name = "Piattos", Price = 35.25, Quantity = 10 },
-            new SnackItem { Name = "Vcut", Price = 49.25, Quantity = 8 },
-            new SnackItem { Name = "Cheesy", Price = 45.00, Quantity = 15 },
-            new SnackItem { Name = "Pic A", Price = 36.50, Quantity = 20 }
-        };
+            ListOfAvailableItems();
+        }
+        private void ListOfAvailableItems()
+        {
+            VendingItem item1 = new VendingItem();
+            item1.Name = "Piattos";
+            item1.Price = 30.00;
+            item1.Quantity = 8;
 
-        public List<SnackItem> LoadItems()
-        {
-            return inventory.Select(item => new SnackItem
+            item.Add(item1);
+
+            VendingItem item2 = new VendingItem
             {
-                Name = item.Name,
-                Price = item.Price,
-                Quantity = item.Quantity
-            }).ToList();
-        }
+                Name = "Vcut",
+                Price = 38.25,
+                Quantity = 5
+            };
+            item.Add(item2);
 
-        public SnackItem GetItemByName(string name)
+            item.Add(new VendingItem
+            {
+                Name = "Cheesy",
+                Price = 40.99,
+                Quantity = 13
+            });
+
+            item.Add(new VendingItem
+            {
+                Name = "Pic A",
+                Price = 50.88,
+                Quantity = 11
+            });
+
+
+
+        }
+        public List<VendingItem> GetInventory()
         {
-            return inventory.FirstOrDefault(item => item.Name.ToLower() == name.ToLower());
+            return item;
         }
 
-        public bool AddItem(SnackItem item)
+        public void AddSnack(VendingItem vendingItem)
         {
-            if (string.IsNullOrWhiteSpace(item.Name) || item.Price <= 0 || item.Quantity <= 0)
-                return false;
 
-
-            if (inventory.Any(i => i.Name.Equals(item.Name, StringComparison.OrdinalIgnoreCase)))
-                return false; 
-
-
-            inventory.Add(item);
-            return true;
         }
 
-        public bool RemoveItem(string name)
+        public void RemoveItem(VendingItem vendingItem)
         {
-            var item = GetItemByName(name);
-            if (item == null) return false;
 
-            inventory.Remove(item);
-            return true;
         }
 
-        public bool UpdateItemQuantity(string name, int deltaQuantity)
+        public void UpdateQuantity(VendingItem vendingItem)
         {
-            var item = GetItemByName(name);
-            if (item == null) return false;
-
-            int newQty = item.Quantity + deltaQuantity;
-            if (newQty < 0) return false;
-
-            item.Quantity = newQty;
-            return true;
+            for (int i = 0; i < item.Count; i++)
+            {
+                if (item[i].Name == vendingItem.Name)
+                {
+                    item[i].Quantity = vendingItem.Quantity;
+                }
+            }
         }
-
-        public List<SnackItem> GetAllItems()
-        {
-            return LoadItems();
-        }
-
-        public bool AddNewItem(SnackItem item)
-        {
-            return AddItem(item);
-        }
-
     }
 }
+
+    
+

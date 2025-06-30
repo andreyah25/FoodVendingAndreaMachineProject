@@ -1,20 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
 using VendingCommon;
 using FoodVendingData;
 
 namespace VendingDataService
 {
-    public class DBFoodVendingDataService :FoodVendingDataItem
+    public class DBFoodVendingDataService : IFoodVendingDataService
     {
-        private string connectionString = "Data Source=LAPTOP-K9BIE3M3\\SQLEXPRESS;Initial Catalog=VendingMachineDB;Integrated Security=True;Encrypt=False;";
+        private static readonly string connectionString =
+"           Data Source=Andrea\\SQLEXPRESS;Initial Catalog=VendingMachineDB;Integrated Security=True;TrustServerCertificate=True;";
 
-        public List<SnackItem> LoadItems() => GetAllItems();
+        public List<VendingItem> LoadItems() => GetAllItems();
 
-        public List<SnackItem> GetAllItems()
+        public List<VendingItem> GetAllItems()
         {
-            var snacks = new List<SnackItem>();
+            var snacks = new List<VendingItem>();
             var query = "SELECT * FROM FoodInventory";
 
             using (var conn = new SqlConnection(connectionString))
@@ -25,7 +26,7 @@ namespace VendingDataService
                 {
                     while (reader.Read())
                     {
-                        snacks.Add(new SnackItem
+                        snacks.Add(new VendingItem
                         {
                             Name = reader["Name"].ToString(),
                             Price = Convert.ToDouble(reader["Price"]),
@@ -37,9 +38,9 @@ namespace VendingDataService
             return snacks;
         }
 
-        public SnackItem GetItemByName(string name)
+        public VendingItem GetItemByName(string name)
         {
-            SnackItem item = null;
+            VendingItem item = null;
             string query = "SELECT * FROM FoodInventory WHERE Name = @Name";
 
             using (var conn = new SqlConnection(connectionString))
@@ -51,7 +52,7 @@ namespace VendingDataService
                 {
                     if (reader.Read())
                     {
-                        item = new SnackItem
+                        item = new VendingItem
                         {
 
                             Name = reader["Name"].ToString(),
@@ -64,7 +65,7 @@ namespace VendingDataService
             return item;
         }
 
-        public bool AddItem(SnackItem item)
+        public bool AddItem(VendingItem item)
         {
             if (string.IsNullOrWhiteSpace(item.Name) || item.Price <= 0 || item.Quantity < 0)
                 return false;
@@ -115,7 +116,7 @@ namespace VendingDataService
             }
         }
 
-        public bool AddNewItem(SnackItem item)
+        public bool AddNewItem(VendingItem item)
         {
             return AddItem(item);
         }

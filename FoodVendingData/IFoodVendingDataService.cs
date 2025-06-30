@@ -1,16 +1,17 @@
 ﻿using System.Collections.Generic;
+
 using VendingCommon;
 
 namespace FoodVendingData
 {
     public interface IFoodVendingDataService
     {
-        List<SnackItem> LoadItems();
-        SnackItem GetItemByName(string name);
-        bool AddItem(SnackItem item);
+        List<VendingItem> LoadItems();
+        VendingItem GetItemByName(string name);
+        bool AddItem(VendingItem item);
         bool RemoveItem(string name);
         bool UpdateItemQuantity(string name, int deltaQuantity);
-        List<SnackItem> GetAllItems();
-        bool AddNewItem(SnackItem item);
+        List<VendingItem> GetAllItems();
+        bool AddNewItem(VendingItem item);
     }
 }

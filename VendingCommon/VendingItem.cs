@@ -1,6 +1,6 @@
 ﻿namespace VendingCommon
 {
-    public class SnackItem
+    public class VendingItem
     {
         public string Name { get; set; }
         public double Price { get; set; }

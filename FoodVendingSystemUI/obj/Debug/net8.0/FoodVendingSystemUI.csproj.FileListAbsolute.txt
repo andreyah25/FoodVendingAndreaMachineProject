@@ -1,0 +1,6 @@
+C:\Users\63955\OneDrive\Desktop\FoodVendingSystemFinal\FoodVendingAndreaMachineProject\FoodVendingSystemUI\obj\Debug\net8.0\FoodVendingSystemUI.csproj.AssemblyReference.cache
+C:\Users\63955\OneDrive\Desktop\FoodVendingSystemFinal\FoodVendingAndreaMachineProject\FoodVendingSystemUI\obj\Debug\net8.0\FoodVendingSystemUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\63955\OneDrive\Desktop\FoodVendingSystemFinal\FoodVendingAndreaMachineProject\FoodVendingSystemUI\obj\Debug\net8.0\FoodVendingSystemUI.AssemblyInfoInputs.cache
+C:\Users\63955\OneDrive\Desktop\FoodVendingSystemFinal\FoodVendingAndreaMachineProject\FoodVendingSystemUI\obj\Debug\net8.0\FoodVendingSystemUI.AssemblyInfo.cs
+C:\Users\63955\OneDrive\Desktop\FoodVendingSystemFinal\FoodVendingAndreaMachineProject\FoodVendingSystemUI\obj\Debug\net8.0\FoodVendingSystemUI.csproj.CoreCompileInputs.cache
+C:\Users\63955\OneDrive\Desktop\FoodVendingSystemFinal\FoodVendingAndreaMachineProject\FoodVendingSystemUI\obj\Debug\net8.0\FoodVendingSystemUI.sourcelink.json

@@ -3,9 +3,9 @@ using VendingCommon;
 
 namespace FoodVendingData
 {
-    public class JsonProductDataService : FoodVendingDataItem
+    public class JsonProductDataService : IFoodVendingDataService
     {
-        private static List<SnackItem> snackItems = new();
+        private static List<VendingItem> snackItems = new();
         private static string jsonFilePath = "inventory.json";
 
         public JsonProductDataService()
@@ -24,13 +24,13 @@ namespace FoodVendingData
             if (File.Exists(jsonFilePath))
             {
                 string jsonText = File.ReadAllText(jsonFilePath);
-                snackItems = JsonSerializer.Deserialize<List<SnackItem>>(jsonText,
+                snackItems = JsonSerializer.Deserialize<List<VendingItem>>(jsonText,
                     new JsonSerializerOptions { PropertyNameCaseInsensitive = true }
-                ) ?? new List<SnackItem>();
+                ) ?? new List<VendingItem>();
             }
             else
             {
-                snackItems = new List<SnackItem>();
+                snackItems = new List<VendingItem>();
                 SaveToFile();
             }
         }
@@ -48,9 +48,9 @@ namespace FoodVendingData
                 item.Name.Equals(name, StringComparison.OrdinalIgnoreCase));
         }
 
-        public List<SnackItem> LoadItems()
+        public List<VendingItem> LoadItems()
         {
-            return snackItems.Select(item => new SnackItem
+            return snackItems.Select(item => new VendingItem
             {
                 Name = item.Name,
                 Price = item.Price,
@@ -58,13 +58,13 @@ namespace FoodVendingData
             }).ToList();
         }
 
-        public SnackItem GetItemByName(string name)
+        public VendingItem GetItemByName(string name)
         {
             return snackItems.FirstOrDefault(item =>
                 item.Name.Equals(name, StringComparison.OrdinalIgnoreCase));
         }
 
-        public bool AddItem(SnackItem item)
+        public bool AddItem(VendingItem item)
         {
             if (FindItemIndex(item.Name) != -1)
                 return false;
@@ -98,12 +98,12 @@ namespace FoodVendingData
             return false;
         }
 
-        public List<SnackItem> GetAllItems()
+        public List<VendingItem> GetAllItems()
         {
             return LoadItems();
         }
 
-        public bool AddNewItem(SnackItem item)
+        public bool AddNewItem(VendingItem item)
         {
             return AddItem(item);
         }

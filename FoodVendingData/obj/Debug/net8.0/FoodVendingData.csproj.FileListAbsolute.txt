@@ -3,3 +3,9 @@ C:\IPTAndrea\FoodVendingData\obj\Debug\net8.0\FoodVendingData.AssemblyInfoInputs
 C:\IPTAndrea\FoodVendingData\obj\Debug\net8.0\FoodVendingData.AssemblyInfo.cs
 C:\IPTAndrea\FoodVendingData\obj\Debug\net8.0\FoodVendingData.csproj.CoreCompileInputs.cache
 C:\IPTAndrea\FoodVendingData\obj\Debug\net8.0\FoodVendingData.sourcelink.json
+C:\Users\63955\OneDrive\Desktop\FoodVendingSystemFinal\FoodVendingAndreaMachineProject\FoodVendingData\obj\Debug\net8.0\FoodVendingData.csproj.AssemblyReference.cache
+C:\Users\63955\OneDrive\Desktop\FoodVendingSystemFinal\FoodVendingAndreaMachineProject\FoodVendingData\obj\Debug\net8.0\FoodVendingData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\63955\OneDrive\Desktop\FoodVendingSystemFinal\FoodVendingAndreaMachineProject\FoodVendingData\obj\Debug\net8.0\FoodVendingData.AssemblyInfoInputs.cache
+C:\Users\63955\OneDrive\Desktop\FoodVendingSystemFinal\FoodVendingAndreaMachineProject\FoodVendingData\obj\Debug\net8.0\FoodVendingData.AssemblyInfo.cs
+C:\Users\63955\OneDrive\Desktop\FoodVendingSystemFinal\FoodVendingAndreaMachineProject\FoodVendingData\obj\Debug\net8.0\FoodVendingData.csproj.CoreCompileInputs.cache
+C:\Users\63955\OneDrive\Desktop\FoodVendingSystemFinal\FoodVendingAndreaMachineProject\FoodVendingData\obj\Debug\net8.0\FoodVendingData.sourcelink.json
