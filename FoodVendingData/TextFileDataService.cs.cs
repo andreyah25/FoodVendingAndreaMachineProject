@@ -19,6 +19,7 @@ namespace FoodVendingData
                 File.WriteAllText(this.filePath, string.Empty);
         }
 
+
         public List<VendingItem> LoadItems()
         {
             var items = new List<VendingItem>();

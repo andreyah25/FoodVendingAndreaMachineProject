@@ -1672,11 +1672,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\63955\\OneDrive\\Desktop\\FoodVendingSystemFinal\\FoodVendingAndreaMachineProject\\VendingDekstopWindows\\VendingDekstopWindows.csproj",
+      "projectUniqueName": "C:\\Users\\63955\\OneDrive\\Desktop\\Final_Project_Food_Vending_Machine\\FoodVendingAndreaMachineProject\\VendingDekstopWindows\\VendingDekstopWindows.csproj",
       "projectName": "VendingDekstopWindows",
-      "projectPath": "C:\\Users\\63955\\OneDrive\\Desktop\\FoodVendingSystemFinal\\FoodVendingAndreaMachineProject\\VendingDekstopWindows\\VendingDekstopWindows.csproj",
+      "projectPath": "C:\\Users\\63955\\OneDrive\\Desktop\\Final_Project_Food_Vending_Machine\\FoodVendingAndreaMachineProject\\VendingDekstopWindows\\VendingDekstopWindows.csproj",
       "packagesPath": "C:\\Users\\63955\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\63955\\OneDrive\\Desktop\\FoodVendingSystemFinal\\FoodVendingAndreaMachineProject\\VendingDekstopWindows\\obj\\",
+      "outputPath": "C:\\Users\\63955\\OneDrive\\Desktop\\Final_Project_Food_Vending_Machine\\FoodVendingAndreaMachineProject\\VendingDekstopWindows\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

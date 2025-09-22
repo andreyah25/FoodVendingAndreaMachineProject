@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YOd/FYmeMEA=",
+  "dgSpecHash": "3QQk7jA+INU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\63955\\OneDrive\\Desktop\\FoodVendingSystemFinal\\FoodVendingAndreaMachineProject\\FoodVendingSystemUI\\FoodVendingSystemUI.csproj",
+  "projectFilePath": "C:\\Users\\63955\\OneDrive\\Desktop\\Final_Project_Food_Vending_Machine\\FoodVendingAndreaMachineProject\\FoodVendingSystemUI\\FoodVendingSystemUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\63955\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\63955\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

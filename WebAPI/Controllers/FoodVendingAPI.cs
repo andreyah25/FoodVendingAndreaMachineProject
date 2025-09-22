@@ -15,12 +15,12 @@ namespace FoodVendingAPI.Controllers
         DBFoodVendingDataService vendingService = new DBFoodVendingDataService();
 
         [HttpGet]
-        public ActionResult<IEnumerable<SnackItem>> GetAllSnacks()
+        public ActionResult<IEnumerable<VendingItem>> GetAllSnacks()
         {
             return Ok(vendingService.GetAllItems());
         }
         [HttpPost]
-        public ActionResult<bool> AddSnack([FromBody] SnackItem item)
+        public ActionResult<bool> AddSnack([FromBody] VendingItem item)
         {
             bool success = vendingService.AddNewItem(item);
             if (!success) return Conflict("Snack already exists. ");

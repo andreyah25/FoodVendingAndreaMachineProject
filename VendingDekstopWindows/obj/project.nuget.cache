@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P/tO/7ZgriY=",
+  "dgSpecHash": "iK0AoXA0Trc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\63955\\OneDrive\\Desktop\\FoodVendingSystemFinal\\FoodVendingAndreaMachineProject\\VendingDekstopWindows\\VendingDekstopWindows.csproj",
+  "projectFilePath": "C:\\Users\\63955\\OneDrive\\Desktop\\Final_Project_Food_Vending_Machine\\FoodVendingAndreaMachineProject\\VendingDekstopWindows\\VendingDekstopWindows.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\63955\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\63955\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

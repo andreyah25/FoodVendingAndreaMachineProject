@@ -8,7 +8,7 @@ namespace VendingDekstopWindows
     public partial class View_Inventory : Form
     {
         private Form previousForm;
-        private string connectionString = "Data Source=LAPTOP-K9BIE3M3\\SQLEXPRESS;Initial Catalog=VendingMachineDB;Integrated Security=True;Encrypt=False;";
+        private string connectionString = "Data Source=Andrea\\SQLEXPRESS;Initial Catalog=VendingInventoryWindows;Integrated Security=True;Encrypt=False;";
 
         public View_Inventory(Form prevForm)
         {

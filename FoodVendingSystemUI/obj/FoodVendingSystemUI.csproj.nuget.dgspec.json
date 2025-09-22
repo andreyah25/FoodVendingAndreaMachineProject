@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\63955\\OneDrive\\Desktop\\FoodVendingSystemFinal\\FoodVendingAndreaMachineProject\\FoodVendingSystemUI\\FoodVendingSystemUI.csproj": {}
+    "C:\\Users\\63955\\OneDrive\\Desktop\\Final_Project_Food_Vending_Machine\\FoodVendingAndreaMachineProject\\FoodVendingSystemUI\\FoodVendingSystemUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\63955\\OneDrive\\Desktop\\FoodVendingSystemFinal\\FoodVendingAndreaMachineProject\\FoodVendingData\\FoodVendingData.csproj": {
+    "C:\\Users\\63955\\OneDrive\\Desktop\\Final_Project_Food_Vending_Machine\\FoodVendingAndreaMachineProject\\FoodVendingData\\FoodVendingData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\63955\\OneDrive\\Desktop\\FoodVendingSystemFinal\\FoodVendingAndreaMachineProject\\FoodVendingData\\FoodVendingData.csproj",
+        "projectUniqueName": "C:\\Users\\63955\\OneDrive\\Desktop\\Final_Project_Food_Vending_Machine\\FoodVendingAndreaMachineProject\\FoodVendingData\\FoodVendingData.csproj",
         "projectName": "FoodVendingData",
-        "projectPath": "C:\\Users\\63955\\OneDrive\\Desktop\\FoodVendingSystemFinal\\FoodVendingAndreaMachineProject\\FoodVendingData\\FoodVendingData.csproj",
+        "projectPath": "C:\\Users\\63955\\OneDrive\\Desktop\\Final_Project_Food_Vending_Machine\\FoodVendingAndreaMachineProject\\FoodVendingData\\FoodVendingData.csproj",
         "packagesPath": "C:\\Users\\63955\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\63955\\OneDrive\\Desktop\\FoodVendingSystemFinal\\FoodVendingAndreaMachineProject\\FoodVendingData\\obj\\",
+        "outputPath": "C:\\Users\\63955\\OneDrive\\Desktop\\Final_Project_Food_Vending_Machine\\FoodVendingAndreaMachineProject\\FoodVendingData\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\63955\\OneDrive\\Desktop\\FoodVendingSystemFinal\\FoodVendingAndreaMachineProject\\VendingCommon\\VendingCommon.csproj": {
-                "projectPath": "C:\\Users\\63955\\OneDrive\\Desktop\\FoodVendingSystemFinal\\FoodVendingAndreaMachineProject\\VendingCommon\\VendingCommon.csproj"
+              "C:\\Users\\63955\\OneDrive\\Desktop\\Final_Project_Food_Vending_Machine\\FoodVendingAndreaMachineProject\\VendingCommon\\VendingCommon.csproj": {
+                "projectPath": "C:\\Users\\63955\\OneDrive\\Desktop\\Final_Project_Food_Vending_Machine\\FoodVendingAndreaMachineProject\\VendingCommon\\VendingCommon.csproj"
               }
             }
           }
@@ -79,14 +79,14 @@
         }
       }
     },
-    "C:\\Users\\63955\\OneDrive\\Desktop\\FoodVendingSystemFinal\\FoodVendingAndreaMachineProject\\FoodVendingSystemUI\\FoodVendingSystemUI.csproj": {
+    "C:\\Users\\63955\\OneDrive\\Desktop\\Final_Project_Food_Vending_Machine\\FoodVendingAndreaMachineProject\\FoodVendingSystemUI\\FoodVendingSystemUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\63955\\OneDrive\\Desktop\\FoodVendingSystemFinal\\FoodVendingAndreaMachineProject\\FoodVendingSystemUI\\FoodVendingSystemUI.csproj",
+        "projectUniqueName": "C:\\Users\\63955\\OneDrive\\Desktop\\Final_Project_Food_Vending_Machine\\FoodVendingAndreaMachineProject\\FoodVendingSystemUI\\FoodVendingSystemUI.csproj",
         "projectName": "FoodVendingSystemUI",
-        "projectPath": "C:\\Users\\63955\\OneDrive\\Desktop\\FoodVendingSystemFinal\\FoodVendingAndreaMachineProject\\FoodVendingSystemUI\\FoodVendingSystemUI.csproj",
+        "projectPath": "C:\\Users\\63955\\OneDrive\\Desktop\\Final_Project_Food_Vending_Machine\\FoodVendingAndreaMachineProject\\FoodVendingSystemUI\\FoodVendingSystemUI.csproj",
         "packagesPath": "C:\\Users\\63955\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\63955\\OneDrive\\Desktop\\FoodVendingSystemFinal\\FoodVendingAndreaMachineProject\\FoodVendingSystemUI\\obj\\",
+        "outputPath": "C:\\Users\\63955\\OneDrive\\Desktop\\Final_Project_Food_Vending_Machine\\FoodVendingAndreaMachineProject\\FoodVendingSystemUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -107,8 +107,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\63955\\OneDrive\\Desktop\\FoodVendingSystemFinal\\FoodVendingAndreaMachineProject\\VendingSystem_BusinessDataLogic\\VendingSystem_BusinessDataLogic.csproj": {
-                "projectPath": "C:\\Users\\63955\\OneDrive\\Desktop\\FoodVendingSystemFinal\\FoodVendingAndreaMachineProject\\VendingSystem_BusinessDataLogic\\VendingSystem_BusinessDataLogic.csproj"
+              "C:\\Users\\63955\\OneDrive\\Desktop\\Final_Project_Food_Vending_Machine\\FoodVendingAndreaMachineProject\\VendingSystem_BusinessDataLogic\\VendingSystem_BusinessDataLogic.csproj": {
+                "projectPath": "C:\\Users\\63955\\OneDrive\\Desktop\\Final_Project_Food_Vending_Machine\\FoodVendingAndreaMachineProject\\VendingSystem_BusinessDataLogic\\VendingSystem_BusinessDataLogic.csproj"
               }
             }
           }
@@ -148,14 +148,14 @@
         }
       }
     },
-    "C:\\Users\\63955\\OneDrive\\Desktop\\FoodVendingSystemFinal\\FoodVendingAndreaMachineProject\\VendingCommon\\VendingCommon.csproj": {
+    "C:\\Users\\63955\\OneDrive\\Desktop\\Final_Project_Food_Vending_Machine\\FoodVendingAndreaMachineProject\\VendingCommon\\VendingCommon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\63955\\OneDrive\\Desktop\\FoodVendingSystemFinal\\FoodVendingAndreaMachineProject\\VendingCommon\\VendingCommon.csproj",
+        "projectUniqueName": "C:\\Users\\63955\\OneDrive\\Desktop\\Final_Project_Food_Vending_Machine\\FoodVendingAndreaMachineProject\\VendingCommon\\VendingCommon.csproj",
         "projectName": "VendingCommon",
-        "projectPath": "C:\\Users\\63955\\OneDrive\\Desktop\\FoodVendingSystemFinal\\FoodVendingAndreaMachineProject\\VendingCommon\\VendingCommon.csproj",
+        "projectPath": "C:\\Users\\63955\\OneDrive\\Desktop\\Final_Project_Food_Vending_Machine\\FoodVendingAndreaMachineProject\\VendingCommon\\VendingCommon.csproj",
         "packagesPath": "C:\\Users\\63955\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\63955\\OneDrive\\Desktop\\FoodVendingSystemFinal\\FoodVendingAndreaMachineProject\\VendingCommon\\obj\\",
+        "outputPath": "C:\\Users\\63955\\OneDrive\\Desktop\\Final_Project_Food_Vending_Machine\\FoodVendingAndreaMachineProject\\VendingCommon\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -213,14 +213,14 @@
         }
       }
     },
-    "C:\\Users\\63955\\OneDrive\\Desktop\\FoodVendingSystemFinal\\FoodVendingAndreaMachineProject\\VendingSystem_BusinessDataLogic\\VendingSystem_BusinessDataLogic.csproj": {
+    "C:\\Users\\63955\\OneDrive\\Desktop\\Final_Project_Food_Vending_Machine\\FoodVendingAndreaMachineProject\\VendingSystem_BusinessDataLogic\\VendingSystem_BusinessDataLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\63955\\OneDrive\\Desktop\\FoodVendingSystemFinal\\FoodVendingAndreaMachineProject\\VendingSystem_BusinessDataLogic\\VendingSystem_BusinessDataLogic.csproj",
+        "projectUniqueName": "C:\\Users\\63955\\OneDrive\\Desktop\\Final_Project_Food_Vending_Machine\\FoodVendingAndreaMachineProject\\VendingSystem_BusinessDataLogic\\VendingSystem_BusinessDataLogic.csproj",
         "projectName": "VendingSystem_BusinessDataLogic",
-        "projectPath": "C:\\Users\\63955\\OneDrive\\Desktop\\FoodVendingSystemFinal\\FoodVendingAndreaMachineProject\\VendingSystem_BusinessDataLogic\\VendingSystem_BusinessDataLogic.csproj",
+        "projectPath": "C:\\Users\\63955\\OneDrive\\Desktop\\Final_Project_Food_Vending_Machine\\FoodVendingAndreaMachineProject\\VendingSystem_BusinessDataLogic\\VendingSystem_BusinessDataLogic.csproj",
         "packagesPath": "C:\\Users\\63955\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\63955\\OneDrive\\Desktop\\FoodVendingSystemFinal\\FoodVendingAndreaMachineProject\\VendingSystem_BusinessDataLogic\\obj\\",
+        "outputPath": "C:\\Users\\63955\\OneDrive\\Desktop\\Final_Project_Food_Vending_Machine\\FoodVendingAndreaMachineProject\\VendingSystem_BusinessDataLogic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -241,11 +241,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\63955\\OneDrive\\Desktop\\FoodVendingSystemFinal\\FoodVendingAndreaMachineProject\\FoodVendingData\\FoodVendingData.csproj": {
-                "projectPath": "C:\\Users\\63955\\OneDrive\\Desktop\\FoodVendingSystemFinal\\FoodVendingAndreaMachineProject\\FoodVendingData\\FoodVendingData.csproj"
+              "C:\\Users\\63955\\OneDrive\\Desktop\\Final_Project_Food_Vending_Machine\\FoodVendingAndreaMachineProject\\FoodVendingData\\FoodVendingData.csproj": {
+                "projectPath": "C:\\Users\\63955\\OneDrive\\Desktop\\Final_Project_Food_Vending_Machine\\FoodVendingAndreaMachineProject\\FoodVendingData\\FoodVendingData.csproj"
               },
-              "C:\\Users\\63955\\OneDrive\\Desktop\\FoodVendingSystemFinal\\FoodVendingAndreaMachineProject\\VendingCommon\\VendingCommon.csproj": {
-                "projectPath": "C:\\Users\\63955\\OneDrive\\Desktop\\FoodVendingSystemFinal\\FoodVendingAndreaMachineProject\\VendingCommon\\VendingCommon.csproj"
+              "C:\\Users\\63955\\OneDrive\\Desktop\\Final_Project_Food_Vending_Machine\\FoodVendingAndreaMachineProject\\VendingCommon\\VendingCommon.csproj": {
+                "projectPath": "C:\\Users\\63955\\OneDrive\\Desktop\\Final_Project_Food_Vending_Machine\\FoodVendingAndreaMachineProject\\VendingCommon\\VendingCommon.csproj"
               }
             }
           }
