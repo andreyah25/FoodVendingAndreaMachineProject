@@ -8,3 +8,15 @@ C:\Users\63955\OneDrive\Desktop\FoodVendingSystemFinal\FoodVendingAndreaMachineP
 C:\Users\63955\OneDrive\Desktop\FoodVendingSystemFinal\FoodVendingAndreaMachineProject\VendingCommon\obj\Debug\net8.0\VendingCommon.AssemblyInfo.cs
 C:\Users\63955\OneDrive\Desktop\FoodVendingSystemFinal\FoodVendingAndreaMachineProject\VendingCommon\obj\Debug\net8.0\VendingCommon.csproj.CoreCompileInputs.cache
 C:\Users\63955\OneDrive\Desktop\FoodVendingSystemFinal\FoodVendingAndreaMachineProject\VendingCommon\obj\Debug\net8.0\VendingCommon.sourcelink.json
+C:\Users\63955\OneDrive\Desktop\Final_Project_Food_Vending_Machine\FoodVendingAndreaMachineProject\VendingCommon\bin\Debug\net8.0\VendingCommon.deps.json
+C:\Users\63955\OneDrive\Desktop\Final_Project_Food_Vending_Machine\FoodVendingAndreaMachineProject\VendingCommon\bin\Debug\net8.0\VendingCommon.dll
+C:\Users\63955\OneDrive\Desktop\Final_Project_Food_Vending_Machine\FoodVendingAndreaMachineProject\VendingCommon\bin\Debug\net8.0\VendingCommon.pdb
+C:\Users\63955\OneDrive\Desktop\Final_Project_Food_Vending_Machine\FoodVendingAndreaMachineProject\VendingCommon\obj\Debug\net8.0\VendingCommon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\63955\OneDrive\Desktop\Final_Project_Food_Vending_Machine\FoodVendingAndreaMachineProject\VendingCommon\obj\Debug\net8.0\VendingCommon.AssemblyInfoInputs.cache
+C:\Users\63955\OneDrive\Desktop\Final_Project_Food_Vending_Machine\FoodVendingAndreaMachineProject\VendingCommon\obj\Debug\net8.0\VendingCommon.AssemblyInfo.cs
+C:\Users\63955\OneDrive\Desktop\Final_Project_Food_Vending_Machine\FoodVendingAndreaMachineProject\VendingCommon\obj\Debug\net8.0\VendingCommon.csproj.CoreCompileInputs.cache
+C:\Users\63955\OneDrive\Desktop\Final_Project_Food_Vending_Machine\FoodVendingAndreaMachineProject\VendingCommon\obj\Debug\net8.0\VendingCommon.sourcelink.json
+C:\Users\63955\OneDrive\Desktop\Final_Project_Food_Vending_Machine\FoodVendingAndreaMachineProject\VendingCommon\obj\Debug\net8.0\VendingCommon.dll
+C:\Users\63955\OneDrive\Desktop\Final_Project_Food_Vending_Machine\FoodVendingAndreaMachineProject\VendingCommon\obj\Debug\net8.0\refint\VendingCommon.dll
+C:\Users\63955\OneDrive\Desktop\Final_Project_Food_Vending_Machine\FoodVendingAndreaMachineProject\VendingCommon\obj\Debug\net8.0\VendingCommon.pdb
+C:\Users\63955\OneDrive\Desktop\Final_Project_Food_Vending_Machine\FoodVendingAndreaMachineProject\VendingCommon\obj\Debug\net8.0\ref\VendingCommon.dll

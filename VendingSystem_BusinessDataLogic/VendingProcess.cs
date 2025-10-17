@@ -2,30 +2,29 @@
 using FoodVendingData;
 using System;
 using System.Linq;
-
+using VendingSystem_BusinessDataLogic; 
 
 namespace FoodVending_BusinessLogic
 {
     public class VendingProcess : TextFileDataService
     {
         private readonly TextFileDataService _dataService;
+        private readonly Vending_Email_Notif _emailService; 
+
         private double _balance = 120.25;
         private readonly int _adminPIN = 0525;
         private readonly int _userPIN = 2005;
 
         public VendingProcess()
         {
-
-            //_dataService = new InMemoryFoodDataService();
             _dataService = new TextFileDataService("inventory.txt");
-            //_dataService = new JsonProductDataService("inventory.json");
-            //_dataService = new DBFoodVendingDataService();
+            _emailService = new Vending_Email_Notif();
         }
 
         public bool ValidatePIN(int pin) => pin == _userPIN;
         public bool ValidateAdminPIN(int pin) => pin == _adminPIN;
-        public double GetBalance() => _balance;
 
+        public double GetBalance() => _balance;
         public bool AddFunds(double amount)
         {
             if (amount <= 0) return false;
@@ -61,6 +60,7 @@ namespace FoodVending_BusinessLogic
                 : "Item not found.";
         }
 
+        
         public bool RestockItem(string name, int quantity)
         {
             if (quantity <= 0) return false;
@@ -78,6 +78,22 @@ namespace FoodVending_BusinessLogic
                 return false;
 
             _balance -= item.Price;
+
+            try
+            {
+                _emailService.SendTransactionReceipt("Customer", item.Name, item.Price, _balance);
+
+             
+                if (item.Quantity - 1 < 3)
+                {
+                    _emailService.SendLowStockAlert(item.Name, item.Quantity - 1);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Email sending failed: {ex.Message}");
+            }
+
             return true;
         }
     }

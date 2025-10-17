@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\VendingCommon\VendingCommon.csproj" />
     <ProjectReference Include="..\VendingSystem_BusinessDataLogic\VendingSystem_BusinessDataLogic.csproj" />
   </ItemGroup>
 

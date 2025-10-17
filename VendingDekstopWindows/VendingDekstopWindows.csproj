@@ -12,4 +12,10 @@
     <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FoodVendingSystemUI\FoodVendingSystemUI.csproj" />
+    <ProjectReference Include="..\VendingCommon\VendingCommon.csproj" />
+    <ProjectReference Include="..\VendingSystem_BusinessDataLogic\VendingSystem_BusinessDataLogic.csproj" />
+  </ItemGroup>
+
 </Project>
